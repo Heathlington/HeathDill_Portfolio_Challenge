@@ -1,0 +1,14 @@
+
+
+nav {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 40%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;;
+}

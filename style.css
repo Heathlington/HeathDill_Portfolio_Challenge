@@ -10,5 +10,54 @@ nav {
     width: 40%;
     background-color: lightblue;
     display: flex;
-    justify-content: space-evenly;;
+    justify-content: space-evenly;
+}
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    display: flex;
+    margin: 25px 0px; 
+    padding: 10px 0px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+section > h2 {
+    flex: 0 0 20%;
+    border-right: 5px solid lightblue;
+    font-size: 4vw;
+    padding-right: 15px;
+    text-align: right;
+}
+
+section > div {
+    flex: 0 0 75%
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+#workContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.workItem {
+    border: 2px solid lightgreen;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.workItem:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
 }
